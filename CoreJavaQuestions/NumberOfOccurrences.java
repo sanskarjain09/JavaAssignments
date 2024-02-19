@@ -8,6 +8,7 @@ while(i<arr.length){
 arr[i] = input.nextInt();
 i++;
 }
+input.close();
 }
 
 static void numberOfOccurrences(int [] arr){
@@ -24,6 +25,7 @@ occurrences++;
 }
 i++;
 }
+input.close();
 System.out.println("Occurrences of number "+ target +" is : "+occurrences);
 }
 
@@ -33,4 +35,5 @@ System.out.println("Enter the Length of the Array");
 int n = input.nextInt();
 int [] arr = new int[n];
 numberOfOccurrences(arr);
+input.close();
 }}

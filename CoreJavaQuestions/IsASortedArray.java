@@ -8,6 +8,7 @@ int[] arr = new int[n];
 boolean result = isASortedArray(arr, n);
 if(result){System.out.println("This is a sorted array");}
 else{System.out.println("This is not a sorted array");}
+input.close();
 }
 static boolean isASortedArray(int [] arr, int n){
 enterElements(arr, n);
@@ -33,5 +34,6 @@ while(i<n){
 arr[i] = input.nextInt();
 i++;
 }
+input.close();
 }
 }

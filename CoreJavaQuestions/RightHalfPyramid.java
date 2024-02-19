@@ -4,6 +4,7 @@ public static void main(String []args){
 Scanner input = new Scanner(System.in);
 System.out.println("Enter a Number");
 int number = input.nextInt();
+input.close();
 rightHalfPyramid(number); 
 }
 static void rightHalfPyramid(int n){

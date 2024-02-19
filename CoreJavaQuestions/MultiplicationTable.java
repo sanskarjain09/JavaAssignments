@@ -11,4 +11,5 @@ while(i<11){
 System.out.println(number + " * " + i +" = "+ number*i);
 i++;
 }
+input.close();
 }}

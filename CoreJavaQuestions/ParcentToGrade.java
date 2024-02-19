@@ -30,5 +30,6 @@ Scanner input = new Scanner(System.in);
 System.out.println("Enter your Grade ");
 String parcent = input.next();
 obj.parcentToGrade(parcent);
+input.close();
 }
 }

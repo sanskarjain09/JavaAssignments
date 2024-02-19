@@ -19,4 +19,5 @@ System.out.println("Enter A number");
 int number = input.nextInt();
 int result = fact.fact(number);
 System.out.println("Factorial of number "+ number + " is "+ result);
+input.close();
 }}

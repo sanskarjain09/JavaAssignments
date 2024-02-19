@@ -6,6 +6,7 @@ Scanner input = new Scanner(System.in);
 System.out.println("Enter the Number ");
 int number = input.nextInt(); 
 fibonacciSeries(number);
+input.close();
 }
 
 public static void fibonacciSeries(int a){
@@ -26,5 +27,6 @@ first = second;
 second = third; 
 }
 System.out.println("\nNumbers Count = "+numberCount);
+
 }
 } 

@@ -26,4 +26,5 @@ System.out.println("Enter the Number");
 int number = input.nextInt();
 int result = obj.fibonacci(number);
 System.out.println("Fibonacci number at "+number+" is "+ result);
+input.close();
 }} 

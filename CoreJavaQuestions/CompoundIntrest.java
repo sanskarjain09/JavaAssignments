@@ -11,5 +11,6 @@ System.out.println("Enter the Time in year");
 int time = input.nextInt(); 
 double si = principle * Math.pow((1+rate/100), time);
 System.out.println("Compound Intrest is : " + (si-principle));
+input.close();
 }
 }

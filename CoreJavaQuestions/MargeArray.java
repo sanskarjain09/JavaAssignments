@@ -8,6 +8,7 @@ while(i<arr.length){
 arr[i] = input.nextInt();
 i++;
 }
+input.close();
 }
 static void showArray(int[] arr){
 int i = 0;
@@ -46,5 +47,5 @@ enterElements(array1);
 enterElements(array2);
 int[] margeResult = margeArray(array1, array2);
 showArray(margeResult);
-
+input.close();
 }}

@@ -14,6 +14,7 @@ j++;
 }
 i++;
 }
+input.close();
 }
 
 static void searchIn2D(int[][] arr, int target){
@@ -38,5 +39,6 @@ enterElements(arr);
 System.out.println("Enter the target element to search");
 int target = input.nextInt();
 searchIn2D(arr, target);
+input.close();
 }
 }

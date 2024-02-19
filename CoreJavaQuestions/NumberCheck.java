@@ -13,5 +13,6 @@ System.out.println("Positive");
 else{
 System.out.println("Negative");
 }
+input.close();
 }
 }

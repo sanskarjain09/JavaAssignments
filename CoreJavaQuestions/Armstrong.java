@@ -10,6 +10,7 @@ System.out.println("Number " + number+ " is Armstrong");
 else{
 System.out.println("Number " +number+ " is not Armstrong");
 }
+input.close();
 } 
 static boolean armstrong(int a){
 int result = 0; 
@@ -25,5 +26,7 @@ return true;
 else{
 return false; 
 }
+
 } 
+
 } 

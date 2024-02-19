@@ -11,5 +11,6 @@ System.out.println("Enter the Time in year");
 int time = input.nextInt(); 
 Float si = 1/100f*principle*rate*time;
 System.out.println("Simple Intrest is : " + si);
+input.close();
 }
 }

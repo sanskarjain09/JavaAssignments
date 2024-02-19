@@ -8,7 +8,7 @@ System.out.print("Enter number2");
 int number2 = input.nextInt();
 System.out.print("Enter number3");
 int number3 = input.nextInt();
-
+input.close();
 if(number1>number2){
 if(number1>number3){
 System.out.println("Number 1 is Greater :- "+ number1);

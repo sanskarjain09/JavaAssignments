@@ -12,6 +12,7 @@ j++;
 }
 i++;
 }
+input.close();
 }
 static void sumAndAvarageOf2DArray(int [][] arr){
 int sum = 0;
@@ -35,6 +36,6 @@ int column = input.nextInt();
 int[][] arr= new int[row][column];
 enterElements(arr);
 sumAndAvarageOf2DArray(arr);
-
+input.close();
 }
 }

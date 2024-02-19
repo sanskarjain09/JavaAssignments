@@ -31,5 +31,6 @@ String operator = input.next();
 
 BasicCalculator obj = new BasicCalculator();
 obj.basicCalculator(number1, number2, operator);
+input.close();
 }
 }

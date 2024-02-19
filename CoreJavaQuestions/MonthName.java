@@ -49,5 +49,6 @@ System.out.println("Enter the Number of the day From 1 to 12");
 int number = input.nextInt();
 MonthName obj = new MonthName();
 obj.monthName(number);
+input.close();
 }
 }

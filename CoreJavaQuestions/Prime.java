@@ -23,4 +23,5 @@ System.out.println( number+ " Is a prime number");
 else{
 System.out.println( number+ " Is not a prime number");
 }
+input.close();
 }}

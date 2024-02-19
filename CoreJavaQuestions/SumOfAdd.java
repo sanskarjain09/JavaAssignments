@@ -11,4 +11,5 @@ result += i;
 i+=2;
 }
 System.out.println("Sum of odd number upto " + number +" is :- " + result);
+input.close();
 }}

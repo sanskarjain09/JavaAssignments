@@ -14,5 +14,6 @@ System.out.println("The year :- " + year + " is a leap year");
 else{
 System.out.println("Not a leap year");
 }
+input.close();
 } 
 }

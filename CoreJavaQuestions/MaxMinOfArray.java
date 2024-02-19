@@ -10,6 +10,7 @@ while(i<arr.length){
 arr[i] = input.nextInt();
 i++;
 }
+input.close();
 }
 static int[] maxMinOfArray(int [] arr){
 MaxMinOfArray obj = new MaxMinOfArray();
@@ -34,5 +35,6 @@ int n = input.nextInt();
 int [] arr = new int[n];
 int[] result =  maxMinOfArray(arr);
 System.out.println("Maximum value in array is "+result[0]+" And Minimum value in array is "+result[1]);
+input.close();
 }
 }

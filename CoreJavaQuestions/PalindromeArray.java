@@ -8,6 +8,7 @@ while(i<arr.length){
 arr[i] = input.nextInt();
 i++;
 }
+input.close();
 }
 
 static boolean palindromeArray(int[] arr){
@@ -33,5 +34,7 @@ obj.enterElements(arr);
 boolean result = palindromeArray(arr);
 if(result){System.out.println("Inserted Array is a Palindrome Array");}
 else{System.out.println("Inserted Array is not a Palindrome Array");}
+input.close();
 }
+
 }

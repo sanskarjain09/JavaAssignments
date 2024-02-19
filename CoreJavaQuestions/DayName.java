@@ -34,5 +34,6 @@ System.out.println("Enter the Number of the day From 1 to 7");
 int number = input.nextInt();
 DayName obj = new DayName();
 obj.dayName(number);
+input.close();
 }
 }

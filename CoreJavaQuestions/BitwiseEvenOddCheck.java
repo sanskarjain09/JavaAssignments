@@ -10,4 +10,5 @@ System.out.println("Number " + number + " is Odd");
 else{
 System.out.println("Number " + number + " is Even");
 }
+input.close();
 }}

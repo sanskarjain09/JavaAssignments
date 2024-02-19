@@ -4,6 +4,7 @@ class Grades{
 public static void main(String []args){
 Scanner input = new Scanner(System.in);
 System.out.println("Enter you Parcentage");
+input.close();
 float percentage = input.nextFloat();
 if(percentage>90){
 System.out.println("A grade");

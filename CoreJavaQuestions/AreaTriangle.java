@@ -11,5 +11,6 @@ float hight = input.nextFloat();
 System.out.println(hight);
 float area = 1/2f * base * hight;
 System.out.println("Enter the Area of the Triangle is : " + area);
+input.close();
 }
 }

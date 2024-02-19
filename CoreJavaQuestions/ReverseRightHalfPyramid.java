@@ -5,6 +5,7 @@ Scanner input = new Scanner(System.in);
 System.out.println("Enter a Number");
 int number = input.nextInt();
 reverseRightHalfPyramid(number); 
+input.close();
 }
 static void reverseRightHalfPyramid(int n){
 for(int j= n; j>0; j--){

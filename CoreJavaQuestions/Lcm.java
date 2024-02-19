@@ -37,5 +37,6 @@ int number1 = input.nextInt();
 int number2 = input.nextInt();
 int lcm = obj.lcm(number1, number2);
 System.out.println("The LCM is "+ lcm);
+input.close();
 }
 }

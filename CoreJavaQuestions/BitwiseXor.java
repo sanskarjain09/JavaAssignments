@@ -6,4 +6,5 @@ System.out.println("Enter Number1 & Number2");
 int number1 = input.nextInt();
 int number2 = input.nextInt();
 System.out.println(number1 ^ number2);
+input.close();
 }} 

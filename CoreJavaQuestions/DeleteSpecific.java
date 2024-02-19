@@ -8,6 +8,7 @@ int n =input.nextInt();
 int[] arr = new int[n];
 int[] result = deleteSpecific(arr);
 showArray(result);
+input.close();
 }
 static void showArray(int [] arr){
 int i = 0;
@@ -36,7 +37,9 @@ result = true;
 }
 i++;
 }
+input.close();
 return newArr;
+
 }
 static void enterElements(int[] arr){
 Scanner input = new Scanner(System.in);
@@ -46,5 +49,5 @@ while(i<arr.length){
 arr[i] = input.nextInt();
 i++;
 }
-
+input.close();
 }}

@@ -12,5 +12,6 @@ float side3 = input.nextFloat();
 System.out.println("Enter the Side4 length : ");
 float side4 = input.nextFloat();
 System.out.println("parameter of the rectangle is :-" + (side1+side2+side3+side4));
+input.close();
 }
 }

@@ -12,6 +12,7 @@ j++;
 }
 i++;
 }
+input.close();
 }
 static void digonalsSum(int[][] arr){
 int sum=0,i=0;
@@ -33,5 +34,5 @@ int row = input.nextInt();
 int[][] arr= new int[row][row];
 enterElements(arr);
 digonalsSum(arr);
-
+input.close();
 }}
