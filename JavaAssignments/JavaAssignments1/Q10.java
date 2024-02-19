@@ -1,4 +1,4 @@
-class PrimeNumbers{
+class Q10{
 public static void main(String []a){
 boolean res = true;
 int range = Integer.parseInt(a[0]);

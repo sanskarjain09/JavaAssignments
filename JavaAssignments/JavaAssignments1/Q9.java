@@ -1,6 +1,4 @@
-
-
-class Armstrong{
+class Q9{
 public static void main(String []args){
 int number = Integer.parseInt(args[0]); 
 if(armstrong(number)){
@@ -10,6 +8,7 @@ else{
 System.out.println("Number " +number+ " is not Armstrong");
 }
 } 
+
 static boolean armstrong(int a){
 int result = 0; 
 int temp = a; 

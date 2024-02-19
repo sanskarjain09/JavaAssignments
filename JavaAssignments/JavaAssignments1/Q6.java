@@ -1,4 +1,4 @@
-class LearOrNot{
+class Q6{
 public static void main(String []a){
 int a1 = Integer.parseInt(a[0]);
 

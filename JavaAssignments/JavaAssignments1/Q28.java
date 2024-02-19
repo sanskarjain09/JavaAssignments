@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class GCD{
+class Q28{
 int small(int a, int b){
 if(a>b){
 return b; 
@@ -10,7 +10,7 @@ return a;
 }
 }
 int gcd(int a, int b){
-GCD obj = new GCD();
+Q28 obj = new Q28();
 int small = obj.small(a,b);
 int i = 1;
 int result = 1;
@@ -24,10 +24,11 @@ return result;
 } 
 public static void main(String []args){
 Scanner input = new Scanner(System.in);
-GCD obj = new GCD();
+Q28 obj = new Q28();
 System.out.println("Enter the Number1 And Number2");
 int number1 = input.nextInt(); 
 int number2 = input.nextInt();
 int result = obj.gcd(number1, number2);
 System.out.println("GCD of number1 "+number1+" and number2 "+number2+" is :- "+result);
+input.close();
 }}
