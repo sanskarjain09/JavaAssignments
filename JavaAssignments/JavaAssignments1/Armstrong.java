@@ -1,3 +1,5 @@
+
+
 class Armstrong{
 public static void main(String []args){
 int number = Integer.parseInt(args[0]); 
