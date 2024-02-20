@@ -2,12 +2,8 @@ import java.util.Scanner;
 
 class Q28{
 int small(int a, int b){
-if(a>b){
-return b; 
-}
-else{
-return a; 
-}
+if(a>b)return b; 
+else return a; 
 }
 int gcd(int a, int b){
 Q28 obj = new Q28();
