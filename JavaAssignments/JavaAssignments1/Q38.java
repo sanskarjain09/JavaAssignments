@@ -37,7 +37,7 @@ class Cube extends ThreeDObject {
   public Cube(double s) {
     side = s;
   }
-
+  
   @Override
   public double wholeSurfaceArea() {
     return 6 * side * side;
